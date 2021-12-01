@@ -8,16 +8,6 @@
 
 config_version=4
 
-_global_script_classes=[ {
-"base": "",
-"class": "GitAPI",
-"language": "NativeScript",
-"path": "res://godot-git-plugin/git_api.gdns"
-} ]
-_global_script_class_icons={
-"GitAPI": ""
-}
-
 [application]
 
 config/name="2d-dodge-creeps"
@@ -33,7 +23,8 @@ window/stretch/aspect="keep"
 
 [gdnative]
 
-singletons=[ "res://godot-git-plugin/git_api.gdnlib" ]
+singletons=[  ]
+singletons_disabled=[  ]
 
 [physics]
 
